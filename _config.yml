@@ -8,10 +8,7 @@ middle_name:
 last_name: Wang
 email: tianshi3@illinois.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a fifth-year PhD student in computer science major at University of Illinois at Urbana-Champaign,
-supervised by Prof. Tarek Abdelzaher. My research interests lie in Internet of Things (IoT), deep learning and
-mobile computing. My current research topics include generative models for IoT, neural network robustness,
-foundation models for IoT, and deep learning in the frequency domain. I expect to graduate in July 2024.
+  I am a fifth-year PhD student in computer science major at University of Illinois at Urbana-Champaign, supervised by Prof. Tarek Abdelzaher. My research interests lie in Internet of Things (IoT), deep learning andmobile computing. My current research topics include generative models for IoT, neural network robustness, foundation models for IoT, and deep learning in the frequency domain. I expect to graduate in July 2024.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
