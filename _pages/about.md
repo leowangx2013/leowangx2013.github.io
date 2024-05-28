@@ -1,49 +1,158 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Bio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a fifth-year PhD student in computer science major at the University of Illinois Urbana-Champaign, supervised by [Prof. Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu). My research interests lie in applying deep learning techniques to Internet of Things (IoT) sensing applications, with a particular emphasis on motion, acoustic, and wireless signals. My recent research topics include IoT data augmentation via generative models, foundation models for IoT, and deep neural networks for signal processing. I expect to graduate in December 2024.
 
-A data-driven personal website
+Research Interest
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+* **Generative AI for IoT**: generative data augmentation, diffusion models, domain knowledge-informed generation
+* **Self-supervised learning for IoT**: contrastive learning, foundation models, multi-modality learning
+* **Edge computing**: neural network based data compression, computation offloading
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
+<!-- Educational Background
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* PhD Student in Computer Science, University of Illinois at Urbana-Champaign, USA, Sept.2019 -- Dec.2024 (expected)
+* Master of Computer Science, University of Illinois at Urbana-Champaign, USA, Sept.2017-- Dec.2018
+* Bachelor of Engineering in Software Engineering Major, Sichuan University, China, Sept.2013--July 2017 -->
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Experiences
+======
+* **Research Internship, IBM T.J. Watson Research Center, (May.2023 - Aug.2023)**  
+Worked on building the foundation model for inertial sensor signals. Conducted experiments demonstrating that pre-training on multiple large unlabeled datasets from various inertial sensing applications could benefit a downstream task from a different application. The results offered a promising methodology for training foundation models for inertial sensor signals under severe data scarcity.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Publications
+======
+*You can also find my articles on my [Google Scholar](https://scholar.google.com/citations?hl=en&user=G5cJK7oAAAAJ&view_op=list_works&sortby=pubdate) profile.*
 
-**Markdown generator**
+* Data Augmentation for Human Activity Recognition via Condition Space Interpolation in Generative Model  
+**Tianshi Wang**, Yizhuo Chen, Qikai Yang, Dachun Sun, Jinyang Li, Ruijie Wang, Tarek Abdelzaher  
+The 33rd International Conference on Computer Communications and Networks (ICCCN), 2024.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+* Acies-OS: A Content-Centric Platform for Edge AI Twinning and Orchestratio  
+Jinyang Li, Yizhuo Chen, Tomoyoshi Kimura, **Tianshi Wang**, Ruijie Wang, Denizhan Kara, Yigong Hu, Li Wu, Walid A. Hanafy, Abel Souza, Prashant Shenoy, Maggie Wigness, Joydeep Bhattacharyya, Jae Kim, Guijun Wang, Greg Kimberly, Josh Eckhardt, Denis Osipychev and Tarek Abdelzaher  
+The 33rd International Conference on Computer Communications and Networks (ICCCN), 2024.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* MetaHKG: Meta Hyperbolic Learning for Few-shot Temporal Reasoning  
+Ruijie Wang, Yutong Zhang, Jinyang Li, Shengzhong Liu, Dachun Sun, Tianchen Wang, **Tianshi Wang**, Yizhuo Chen, Denizhan Kara and Tarek Abdelzaher  
+International Conference on Research and Development in Information Retrieval (SIGIR), 2024.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+* On the Efficiency and Robustness of Vibration-based Foundation Models for IoT Sensing: A Case Study  
+Tomoyoshi Kimura, Jinyang Li, **Tianshi Wang**, Yizhuo Chen, Yigong Hu, Ruijie Wang, Maggie Wigness, Shengzhong Liu, Mani Srivastava, Suhas Diggavi and Tarek F. Abdelzaher  
+International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys), 2024.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* FreqMAE: Frequency-Aware Masked Autoencoder for Multi-Modal IoT Sensing  
+Denizhan Kara, Tomoyoshi Kimura, Shengzhong Liu, Jinyang Li, Dongxin Liu, **Tianshi Wang**, Ruijie Wang, Yizhuo Chen, Yigong Hu, Tarek Abdelzaher  
+The ACM on Web Conference (TheWebConf), 2024.
+
+* SudokuSens: Enhancing Deep Learning Robustness for IoT Sensing Applications using a Generative Approach  
+**Tianshi Wang**, Jinyang Li, Ruijie Wang, Denizhan Kara, Shengzhong Liu, Davis Wertheimer, Antoni Viros-i-Martin, Raghu Ganti, Mudhakar Srivatsa, Tarek Abdelzaher  
+The 21st ACM Conference on Embedded Networked Sensor Systems (SenSys), 2023.
+
+* The Methodological Pitfall of Dataset-Driven Research on Deep Learning: An IoT Example  
+**Tianshi Wang**, Denizhan Kara, Jinyang Li, Shengzhong Liu, Tarek Abdelzaher, Brian Jalaian  
+IEEE Military Communications Conference (MILCOM), 2022.
+
+* AdaMask: Enabling Machine-Centric Video Streaming with Adaptive Frame Masking for DNN Inference Offloading  
+Shengzhong Liu, **Tianshi Wang**, Jinyang Li, Dachun Sun, Mani Srivastava, Tarek Abdelzaher  
+The 30th ACM International Conference on Multimedia (ACM MM), 2022.
+
+* Iobt-os: Optimizing the sensing-to-decision loop for the internet of battlefield things  
+Dongxin Liu, Tarek Abdelzaher, **Tianshi Wang**, Yigong Hu, Jinyang Li, Shengzhong Liu, Matthew Caesar, Deepti Kalasapura, Joydeep Bhattacharyya, Nassy Srour, Jae Kim, Guijun Wang, Greg Kimberly, Shouchao Yao  
+International Conference on Computer Communications and Networks (ICCCN), 2022.
+
+* Darts: Distributed iot architecture for real-time, resilient and ai-compressed workflows  
+Ragini Gupta, Bo Chen, Shengzhong Liu, **Tianshi Wang**, Sandeep Singh Sandha, Abel Souza, Klara Nahrstedt, Tarek Abdelzaher, Mani Srivastava, Prashant Shenoy, Jeffrey Smith, Maggie Wigness, Niranjan Suri  
+The 2022 Workshop on Advanced tools, programming languages, and PLatforms for Implementing and Evaluating algorithms for Distributed systems
+
+* Multi-View Scheduling of Onboard Live Video Analytics to Minimize Frame Processing Latency  
+Shengzhong Liu, **Tianshi Wang**, Hongpeng Guo, Xinzhe Fu, Philip David, Maggie Wigness, Archan Misra, Tarek Abdelzaher  
+IEEE 42nd international conference on distributed computing systems (ICDCS), 2022.
+
+* Computational modeling of hierarchically polarized groups by structured matrix factorization  
+Dachun Sun, Chaoqi Yang, Jinyang Li, Ruijie Wang, Shuochao Yao, Huajie Shao, Dongxin Liu, Shengzhong Liu, **Tianshi Wang**, Tarek F Abdelzaher  
+Frontiers in big Data, 2022.
+
+* Self-contrastive learning based semi-supervised radio modulation classification  
+Dongxin Liu, Peng Wang, **Tianshi Wang**, Tarek Abdelzaher  
+IEEE Military Communications Conference (MILCOM), 2021.
+
+* ControlVAE: Tuning, analytical properties, and performance analysis  
+Huajie Shao, Zhisheng Xiao, Shuochao Yao, Dachun Sun, Aston Zhang, Shengzhong Liu, **Tianshi Wang**, Jinyang Li, Tarek Abdelzaher  
+IEEE transactions on pattern analysis and machine intelligence, 2021.
+
+* Audio Keyword Reconstruction from On-Device Motion Sensor Signals via Neural Frequency Unfolding  
+**Tianshi Wang**, Shuochao Yao, Shengzhong Liu, Jinyang Li, Dongxin Liu, Huajie Shao, Ruijie Wang, Tarek Abdelzaher  
+The ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp), 2021.
+
+* Contrastive self-supervised representation learning for sensing signals from the time-frequency perspective  
+Dongxin Liu, **Tianshi Wang**, Shengzhong Liu, Ruijie Wang, Shuochao Yao, Tarek Abdelzaher  
+International Conference on Computer Communications and Networks (ICCCN), 2021. 
+
+* Dydiff-vae: A dynamic variational framework for information diffusion prediction  
+Ruijie Wang, Zijie Huang, Shengzhong Liu, Huajie Shao, Dongxin Liu, Jinyang Li, **Tianshi Wang**, Dachun Sun, Shuochao Yao, Tarek Abdelzaher  
+International Conference on Research and Development in Information Retrieval (SIGIR), 2021.
+
+* Deep compressive offloading: Speeding up edge offloading for ai services  
+Shuochao Yao, Jinyang Li, Dongxin Liu, **Tianshi Wang**, Shengzhong Liu, Huajie Shao, Tarek Abdelzaher  
+GetMobile: Mobile Computing and Communications, 2021.
+
+* Hierarchical overlapping belief estimation by structured matrix factorization  
+Chaoqi Yang, Jinyang Li, Ruijie Wang, Shuochao Yao, Huajie Shao, Dongxin Liu, Shengzhong Liu, **Tianshi Wang**, Tarek F Abdelzaher  
+IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2020.
+
+* Deep Compressive Offloading: Speeding Up Neural Network Inference by Trading Edge Computation for Network Latency
+Shuochao Yao, Jinyang Li, Dongxin Liu, **Tianshi Wang**, Shengzhong Liu, Huajie Shao, Tarek Abdelzaher  
+The 18th ACM Conference on Embedded Networked Sensor Systems (SenSys), 2020. (Best Paper Award)
+
+* Handling missing sensors in topology-aware iot applications with gated graph neural network  
+Shengzhong Liu, Shuochao Yao, Yifei Huang, Dongxin Liu, Huajie Shao, Yiran Zhao, Jinyang Li, **Tianshi Wang**, Ruijie Wang, Chaoqi Yang, Tarek Abdelzaher  
+The ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp), 2020
+
+* Scheduling real-time deep learning services as imprecise computations  
+Shuochao Yao, Yifan Hao, Yiran Zhao, Huajie Shao, Dongxin Liu, Shengzhong Liu, **Tianshi Wang**, Jinyang Li, Tarek Abdelzaher  
+IEEE 26th international conference on embedded and real-time computing systems and applications (RTCSA), 2020 
+
+* Misinformation detection and adversarial attack cost analysis in directional social networks  
+Huajie Shao, Shuochao Yao, Andong Jing, Shengzhong Liu, Dongxin Liu, **Tianshi Wang**, Jinyang Li, Chaoqi Yang, Ruijie Wang, Tarek Abdelzaher  
+The 29th International Conference on Computer Communications and Networks (ICCCN), 2020.
+
+* Multiscale online media simulation with socialcube  
+Tarek Abdelzaher, Jiawei Han, Yifan Hao, Andong Jing, Dongxin Liu, Shengzhong Liu, Hoang Hai Nguyen, David M Nicol, Huajie Shao, **Tianshi Wang**, Shuochao Yao, Yu Zhang, Omar Malik, Stephen Dipple, James Flamino, Fred Buchanan, Sam Cohen, Gyorgy Korniss, Boleslaw K Szymanski  
+Computational and Mathematical Organization Theory, 2020.
+
+* paper2repo: GitHub repository recommendation for academic papers  
+Huajie Shao, Dachun Sun, Jiahao Wu, Zecheng Zhang, Aston Zhang, Shuochao Yao, Shengzhong Liu, **Tianshi Wang**, Chao Zhang, Tarek Abdelzaher  
+The Web Conference (TheWebConf), 2020.
+
+* Giobalfusion: A global attentional deep learning framework for multisensor information fusion  
+Shengzhong Liu, Shuochao Yao, Jinyang Li, Dongxin Liu, **Tianshi Wang**, Huajie Shao, Tarek Abdelzaher  
+The ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp), 2020.
+
+* Disentangling overlapping beliefs by structured matrix factorization  
+Chaoqi Yang, Jinyang Li, Ruijie Wang, Shuochao Yao, Huajie Shao, Dongxin Liu, Shengzhong Liu, **Tianshi Wang**, Tarek F Abdelzaher  
+arXiv e-prints, 2020.
+
+* Stardust: A deep learning serving system in IoT: Demo abstract  
+Shuochao Yao, **Tianshi Wang**, Jinyang Li, Tarek Abdelzaher  
+The 17th Conference on Embedded Networked Sensor Systems (SenSys), 2019.
+
+* Stfnets: Learning sensing signals from the time-frequency perspective with short-time fourier neural networks  
+Shuochao Yao, Ailing Piao, Wenjun Jiang, Yiran Zhao, Huajie Shao, Shengzhong Liu, Dongxin Liu, Jinyang Li, **Tianshi Wang**, Shaohan Hu, Lu Su, Jiawei Han, Tarek Abdelzaher  
+The World Wide Web Conference (WWW), 2019.
+
+Service
+======
+* Conference Reviewer: NeurIPS 2024; ACM MM 2023, 2024; CVPR 2024; IoTDI 2023.
+* Journal Reviewer: IEEE Internet of Things Journal, IEEE Transactions on Industrial Informatics
+
+
+Honors & Awards
+======
+* Best Paper Award. SenSys’20
