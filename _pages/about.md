@@ -35,7 +35,7 @@ Publications
 <u>Tianshi Wang</u>, Yizhuo Chen, Qikai Yang, Dachun Sun, Jinyang Li, Ruijie Wang, Tarek Abdelzaher  
 The 33rd International Conference on Computer Communications and Networks (ICCCN), 2024.
 
-* **Acies-OS: A Content-Centric Platform for Edge AI Twinning and Orchestratio**  
+* **Acies-OS: A Content-Centric Platform for Edge AI Twinning and Orchestration**  
 Jinyang Li, Yizhuo Chen, Tomoyoshi Kimura, <u>Tianshi Wang</u>, Ruijie Wang, Denizhan Kara, Yigong Hu, Li Wu, Walid A. Hanafy, Abel Souza, Prashant Shenoy, Maggie Wigness, Joydeep Bhattacharyya, Jae Kim, Guijun Wang, Greg Kimberly, Josh Eckhardt, Denis Osipychev and Tarek Abdelzaher  
 The 33rd International Conference on Computer Communications and Networks (ICCCN), 2024.
 
