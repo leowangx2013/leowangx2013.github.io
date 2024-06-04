@@ -9,7 +9,7 @@ redirect_from:
 
 I am a fifth-year PhD student in computer science major at the University of Illinois Urbana-Champaign (UIUC), supervised by [Prof. Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu). My research interests lie in applying deep learning techniques to Internet of Things (IoT) sensing applications, with a particular emphasis on motion, acoustic, and wireless signals. My recent research topics include IoT data augmentation via generative models, foundation models for IoT, and deep neural networks for signal processing. I expect to graduate in December 2024.
 
-Research Interest
+Research Interests
 ======
 * **Generative AI for IoT**: generative data augmentation, diffusion models, domain knowledge-informed generation
 * **Self-supervised learning for IoT**: contrastive learning, foundation models, multi-modality learning
