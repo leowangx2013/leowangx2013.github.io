@@ -7,13 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year PhD student in computer science major at the University of Illinois Urbana-Champaign (UIUC), supervised by [Prof. Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu). My research interests lie in applying deep learning techniques to Internet of Things (IoT) sensing applications, with a particular emphasis on motion, acoustic, and wireless signals. My recent research topics include IoT data augmentation via generative models, foundation models for IoT, and deep neural networks for signal processing. I expect to graduate in December 2024.
+I am a fifth-year PhD student in computer science major at the University of Illinois Urbana-Champaign (UIUC), supervised by [Prof. Tarek Abdelzaher](https://abdelzaher.cs.illinois.edu). My research focuses on applying deep learning techniques to Internet of Things (IoT) sensing applications, with a particular emphasis on time-series data, including inertial, acoustic, electroencephalography (EEG), wireless signals, and video data. 
+I expect to graduate in December 2024.
+<!-- My recent research topics include IoT data augmentation via generative models, foundation models for IoT, and deep neural networks for signal processing. I expect to graduate in December 2024. -->
 
 Research Interests
 ======
-* **Generative AI for IoT**: generative data augmentation, diffusion models, domain knowledge-informed generation
-* **Self-supervised learning for IoT**: contrastive learning, foundation models, multi-modality learning
-* **Edge computing**: neural network based data compression, computation offloading
+* **Generative AI for IoT**: generative data augmentation, diffusion models, knowledge-informed generative models
+* **Foundation Model for IoT**: self-supervised learning, multi-modality fusion
+* **Edge computing**: computation offloading, video streaming
 
 
 <!-- Educational Background
@@ -149,10 +151,10 @@ The World Wide Web Conference (WWW), 2019.
 
 Service
 ======
-* Conference Reviewer: NeurIPS 2024; ACM MM 2023, 2024; CVPR 2024; IoTDI 2023.
+* Conference Reviewer: NeurIPS 2024; ACM MM 2023, 2024; CVPR 2024; ACL 2024; IoTDI 2023.
 * Journal Reviewer: IEEE Internet of Things Journal, IEEE Transactions on Industrial Informatics
-
 
 Honors & Awards
 ======
-* Best Paper Award. SenSys’20
+* Selected Presentation. SRC TECHCON 2024
+* Best Paper Award. SenSys 2020
